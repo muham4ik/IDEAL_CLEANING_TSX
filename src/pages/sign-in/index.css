@@ -1,0 +1,59 @@
+/* LoginForm.css */
+
+/* Login forma konteyneri */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 16px;
+  }
+  
+  /* Login forma kartasi */
+  .login-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 32px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Login formasi sarlavhasi */
+  .login-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  /* Login forma */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Forma maydonlari */
+  .form-field {
+    margin-bottom: 16px;
+  }
+  
+  /* Xato xabari */
+  .error-message {
+    color: #dc2626;
+    margin-top: 4px;
+  }
+  
+  /* Kirish tugmasi */
+  .login-button {
+    background-color: #3b82f6;
+    color: #ffffff;
+    &:hover {
+      background-color: #2563eb;
+    }
+  }
+  

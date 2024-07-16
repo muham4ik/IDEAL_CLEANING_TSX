@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "paths": {
+      "@/*":["/*"],
+      "@pages": ["./src/pages"],
+      "@components" : ["./src/components"],
+      "@router" : ["./src/router/index.tsx"],
+      "@routes" : ["./src/router/routes.tsx"],
+      "@service" : ["./src/service/index.ts"],
+      "@assets" : ["./src/assets"],
+      "@modal" : ["./src/components/modal/index.tsx"],
+      "@validation" : ["./src/utils/validation.ts"],
+      "@notification" : ["./src/utils/notification.ts"],
+      "@token" : ["./src/utils/token.ts"],
+      "@auth-type" : ["./src/types/auth.ts"],
+      "@service-type" : ["./src/types/service.ts"]
+    },
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
