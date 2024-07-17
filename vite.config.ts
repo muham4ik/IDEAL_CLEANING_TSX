@@ -19,6 +19,7 @@ export default defineConfig({
       { find: "@token", replacement: "/src/utils/token-service.ts" },
       { find: "@auth-type", replacement: "/src/types/auth.ts" },
       { find: "@service-type", replacement: "/src/types/service.ts" },
+      { find: "@order-type", replacement: "/src/types/order.ts" },
     ],
   },
 });

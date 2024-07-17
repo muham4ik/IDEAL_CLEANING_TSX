@@ -20,7 +20,8 @@
       "@notification" : ["./src/utils/notification.ts"],
       "@token" : ["./src/utils/token.ts"],
       "@auth-type" : ["./src/types/auth.ts"],
-      "@service-type" : ["./src/types/service.ts"]
+      "@service-type" : ["./src/types/service.ts"],
+      "@order-type" : ["./src/types/order.ts"],
     },
     /* Bundler mode */
     "moduleResolution": "bundler",

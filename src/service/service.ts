@@ -1,5 +1,5 @@
 import http from './config'
-import {Request , Response ,News} from "@service-type"
+import {Request , Response} from "@service-type"
 const service = {
     create: (data:Request)=> http.post("/service",data),
     get: ()=> http.get("/service/all", {params: {page: 1, limit:10}}),

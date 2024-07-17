@@ -16,5 +16,5 @@ interface Delete {
 }
 
 export interface Response{
-    create: (data:Delete)=> unknown
+    delete: (data:Delete)=> unknown
 }
